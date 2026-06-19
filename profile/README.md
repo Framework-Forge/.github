@@ -1,60 +1,67 @@
-<p align="center">
-  <img width="180" height="180" src="https://www.image2url.com/r2/default/images/1779904701217-6790acd0-b1e8-4504-bca0-38ebc896c701.png">
-</p>
+<div align="center">
 
-<h1 align="center">Pinel Box</h1>
+<img width="190" src="https://www.image2url.com/r2/default/images/1779904701217-6790acd0-b1e8-4504-bca0-38ebc896c701.png" alt="Pinel Box">
 
-<p align="center">
-  Base FiveM brasileira, modular e open source, baseada em Qbox, Ox e FXServer.
-</p>
+# PINEL BOX BRASIL
 
-<p align="center">
-  <a href="https://github.com/Pinel-Box-Brasil/pinelbox-installer/releases/latest">
-    <img src="https://img.shields.io/badge/Instalador-Pinel%20Box-8b5cf6?style=for-the-badge" alt="Pinel Box Installer">
-  </a>
-  <a href="https://github.com/Pinel-Box-Brasil/pinelbox-deploy">
-    <img src="https://img.shields.io/badge/txAdmin-Deploy-a855f7?style=for-the-badge" alt="txAdmin Deploy">
-  </a>
-  <a href="https://discord.gg/vQHFXwpqqP">
-    <img src="https://img.shields.io/badge/Discord-Comunidade-5865f2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  </a>
-</p>
+### Base FiveM brasileira, modular e pronta para deploy.
 
-## Sobre a Pinel Box
+Qbox, Ox, FXServer e txAdmin com identidade própria, organização limpa e foco em performance.
 
-A Pinel Box é uma base moderna para servidores RolePlay no FiveM. O projeto
-mantém compatibilidade com o ecossistema Qbox e usa a stack Ox como fundação
-para inventário, bibliotecas, target, banco e integrações.
+<br>
 
-O projeto prioriza:
+[![Installer](https://img.shields.io/badge/BAIXAR%20INSTALADOR-8B5CF6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Pinel-Box-Brasil/pinelbox-installer/releases/latest/download/PinelBoxInstaller.exe)
+[![txAdmin](https://img.shields.io/badge/RECIPE%20TXADMIN-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Pinel-Box-Brasil/pinelbox-deploy/main/recipe.yaml)
+[![Discord](https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vQHFXwpqqP)
 
-- Performance
-- Segurança
-- Código limpo
-- Organização modular
-- Compatibilidade com Qbox/Ox
-- Facilidade de deploy
-- Ferramentas para desenvolvedores
+</div>
 
-## Instalação rápida
+---
 
-Você pode instalar a Pinel Box de duas formas.
+## O que é a Pinel Box?
 
-### 1. Pelo instalador recomendado
+A Pinel Box é uma base open source para servidores RolePlay no FiveM. Ela nasce
+em cima do ecossistema Qbox/Ox, mas com uma camada própria de organização,
+identidade visual, deploy e ferramentas para facilitar a vida de quem quer
+montar uma cidade sem começar do zero.
 
-Baixe o instalador oficial:
+Nosso foco:
 
-```text
-https://github.com/Pinel-Box-Brasil/pinelbox-installer/releases/latest/download/PinelBoxInstaller.exe
-```
+- performance e estabilidade;
+- estrutura modular;
+- compatibilidade com Qbox e Ox;
+- deploy simples;
+- código limpo para edição;
+- experiência mais amigável para criadores de servidor.
 
-O installer prepara o FXServer, organiza as pastas `server` e `base`, instala
-MariaDB opcionalmente, configura o banco, aplica a receita oficial e permite
-iniciar o servidor pelo próprio painel.
+---
 
-### 2. Pelo txAdmin
+## Instale do seu jeito
 
-Use a recipe oficial no txAdmin:
+<table>
+  <tr>
+    <td width="50%">
+      <h3>Instalador Pinel Box</h3>
+      <p>O método mais simples. Baixa o FXServer, organiza a estrutura, prepara banco, aplica a base e entrega tudo em uma interface própria.</p>
+      <p>
+        <a href="https://github.com/Pinel-Box-Brasil/pinelbox-installer/releases/latest/download/PinelBoxInstaller.exe">
+          <strong>Baixar PinelBoxInstaller.exe</strong>
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>Deploy pelo txAdmin</h3>
+      <p>Para quem prefere o fluxo tradicional do txAdmin com Remote URL Template.</p>
+      <p>
+        <a href="https://raw.githubusercontent.com/Pinel-Box-Brasil/pinelbox-deploy/main/recipe.yaml">
+          <strong>Copiar URL da recipe.yaml</strong>
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+### URL da recipe txAdmin
 
 ```text
 https://raw.githubusercontent.com/Pinel-Box-Brasil/pinelbox-deploy/main/recipe.yaml
@@ -62,45 +69,54 @@ https://raw.githubusercontent.com/Pinel-Box-Brasil/pinelbox-deploy/main/recipe.y
 
 No txAdmin:
 
-1. Crie um novo servidor.
+1. Clique em `Create Server`.
 2. Escolha `Remote URL Template`.
 3. Cole a URL da recipe.
 4. Configure o banco de dados.
 5. Execute o deploy.
 
-> Para instalação via txAdmin funcionar para qualquer usuário, o repositório
-> `pinelbox-deploy` precisa estar público ou a recipe precisa estar hospedada em
-> uma URL pública.
+---
 
 ## Repositórios principais
 
-- [`pinelbox`](https://github.com/Pinel-Box-Brasil/pinelbox): resource central da Pinel Box.
-- [`pinelbox-deploy`](https://github.com/Pinel-Box-Brasil/pinelbox-deploy): recipe e arquivos de deploy para txAdmin.
-- [`pinelbox-installer`](https://github.com/Pinel-Box-Brasil/pinelbox-installer): página pública e releases do instalador.
-- [`pinelbox_multichar`](https://github.com/Pinel-Box-Brasil/pinelbox_multichar): multicharacter da base.
-- [`pinelbox_spawn`](https://github.com/Pinel-Box-Brasil/pinelbox_spawn): seleção de spawn.
+| Repositório | Função |
+| --- | --- |
+| [`pinelbox`](https://github.com/Pinel-Box-Brasil/pinelbox) | Resource central da Pinel Box. |
+| [`pinelbox-installer`](https://github.com/Pinel-Box-Brasil/pinelbox-installer) | Página pública e releases do instalador. |
+| [`pinelbox-deploy`](https://github.com/Pinel-Box-Brasil/pinelbox-deploy) | Recipe e arquivos para instalação via txAdmin. |
+| [`pinelbox_multichar`](https://github.com/Pinel-Box-Brasil/pinelbox_multichar) | Sistema de multicharacter. |
+| [`pinelbox_spawn`](https://github.com/Pinel-Box-Brasil/pinelbox_spawn) | Seleção de spawn. |
 
-## Tecnologias
+---
 
-- Qbox
-- Ox Library
-- Ox Inventory
-- Ox Target
-- Ox MySQL
-- PMA Voice
-- FXServer
-- txAdmin
+## Stack
+
+<div align="center">
+
+![Qbox](https://img.shields.io/badge/Qbox-111827?style=for-the-badge)
+![Ox Lib](https://img.shields.io/badge/Ox%20Lib-7C3AED?style=for-the-badge)
+![Ox Inventory](https://img.shields.io/badge/Ox%20Inventory-8B5CF6?style=for-the-badge)
+![Ox Target](https://img.shields.io/badge/Ox%20Target-A855F7?style=for-the-badge)
+![Ox MySQL](https://img.shields.io/badge/Ox%20MySQL-C084FC?style=for-the-badge)
+![FXServer](https://img.shields.io/badge/FXServer-18181B?style=for-the-badge)
+![txAdmin](https://img.shields.io/badge/txAdmin-27272A?style=for-the-badge)
+
+</div>
+
+---
 
 ## Links
 
 - Discord: https://discord.gg/vQHFXwpqqP
-- Organização: https://github.com/Pinel-Box-Brasil
 - Instalador: https://github.com/Pinel-Box-Brasil/pinelbox-installer/releases/latest
 - Deploy txAdmin: https://github.com/Pinel-Box-Brasil/pinelbox-deploy
+- Recipe: https://raw.githubusercontent.com/Pinel-Box-Brasil/pinelbox-deploy/main/recipe.yaml
 - Documentação: em breve
 
 ---
 
-<p align="center">
-  <strong>Pinel Box — seu servidor, sua identidade.</strong>
-</p>
+<div align="center">
+
+### Pinel Box — seu servidor, sua identidade.
+
+</div>
