@@ -33,8 +33,6 @@ O projeto prioriza:
 ## Links
 
 - Discord: https://discord.gg/vQHFXwpqqP
-- GitHub: https://github.com/SpaceBox-Brasil
+- GitHub: https://github.com/Pinel-Box-Brasil
+- Instalador: https://github.com/Pinel-Box-Brasil/pinelbox-installer/releases/latest
 - Documentação: em breve
-
-> A organização ainda utiliza o endereço histórico `SpaceBox-Brasil`. A marca
-> pública do projeto passa a ser Pinel Box.
