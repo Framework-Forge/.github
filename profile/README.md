@@ -10,7 +10,7 @@ Qbox, Ox, FXServer e txAdmin com identidade própria, organização limpa e foco
 
 <br>
 
-[![Installer](https://img.shields.io/badge/BAIXAR%20INSTALADOR-8B5CF6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Pinel-Box-Brasil/pinelbox-installer/releases/latest/download/PinelBoxInstaller.exe)
+
 [![txAdmin](https://img.shields.io/badge/RECIPE%20TXADMIN-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Pinel-Box-Brasil/pinelbox-deploy/main/recipe.yaml)
 [![Discord](https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vQHFXwpqqP)
 
