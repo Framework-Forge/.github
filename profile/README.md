@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img width="190" src="https://www.image2url.com/r2/default/images/1788362776078-2d057739-b83f-4aeb-8a64-c15c36b63dfb.png" alt="Forge Core">
+<img width="190" src="https://www.image2url.com/r2/default/images/1788362870143-046e2a46-c5f5-48d5-bf07-15d14a811f9c.png" alt="Forge Core">
 
 # FORGE CORE BRASIL
 
