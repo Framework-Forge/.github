@@ -1,6 +1,4 @@
-Verdade, eu quebrei o bloco do README por causa do trecho da `recipe` em ```text. Aqui está completo em um bloco só, com as crases internas escapadas para você conseguir copiar inteiro:
 
-````md
 <div align="center">
 
 <img width="190" src="https://www.image2url.com/r2/default/images/1779904701217-6790acd0-b1e8-4504-bca0-38ebc896c701.png" alt="Forge Core">
