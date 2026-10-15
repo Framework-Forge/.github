@@ -1,139 +1,34 @@
-
 <div align="center">
 
-<img width="190" src="https://www.image2url.com/r2/default/images/1788362870143-046e2a46-c5f5-48d5-bf07-15d14a811f9c.png" alt="Forge Core">
+<img width="190" src="https://framework-forge.github.io/site/assets/forge_legacy_logo-Ddr6hPAD.png" alt="Forge Framework Legacy">
 
-# FORGE CORE BRASIL
+# FORGE PROJECT
 
-### Framework FiveM brasileira, modular e pronta para deploy.
+### Framework brasileira para FiveM, focada em RolePlay e Corridas.
 
-Framework própria para servidores RolePlay, com suporte Legacy e Enhanced, compatibilidade com recursos Qbox/Ox, FXServer e txAdmin.
+A **Forge Framework** nasceu a partir das dificuldades e limitações observadas nas frameworks mais conhecidas do ecossistema FiveM, buscando mais eficiência, performance, organização e liberdade para projetos modernos.
 
-<br>
+Atualmente, a versão disponível é a **Forge Framework Legacy**.
 
-[![Recipe txAdmin](https://img.shields.io/badge/RECIPE%20TXADMIN-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Forge-Core-Brasil/forge-core-deploy/main/recipe.yaml)
+O ecossistema é fortemente sustentado pelo **PR Bridge**, uma mega biblioteca que reúne bridges, compatibilidade, interfaces, targets, menus, callbacks, ferramentas para desenvolvedores, utilitários e documentação técnica.
+
+A proposta da Forge é oferecer uma base própria, modular e preparada para crescer com servidores de RolePlay e projetos automotivos e de corrida.
+
+## Principais pilares
+
+- Framework própria e 100% brasileira.
+- Foco em performance, estabilidade e escalabilidade.
+- Arquitetura modular e preparada para evolução por versões.
+- PR Bridge como biblioteca central do ecossistema.
+- Compatibilidade com recursos externos através de bridges e adapters.
+- Ferramentas, documentação e APIs voltadas para desenvolvedores.
+
 [![Discord](https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vQHFXwpqqP)
+[![GitHub](https://img.shields.io/badge/GITHUB-A855F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Forge-Core-Brasil)
+[![Site Oficial](https://img.shields.io/badge/SITE%20OFICIAL-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://framework-forge.github.io/site/)
+
+
+
+**Conheça a Forge, a documentação, os projetos e o ecossistema completo no site oficial.**
 
 </div>
-
----
-
-## O que é a Forge Core?
-
-A Forge Core é uma framework brasileira open source para servidores RolePlay no FiveM.
-Ela possui estrutura própria, identidade própria e ferramentas pensadas para facilitar
-a criação, manutenção e evolução de cidades RP.
-
-Mesmo trazendo suporte a recursos do ecossistema Qbox/Ox, a Forge Core não é apenas
-uma base em cima do Qbox. Ela funciona como uma framework própria, com organização
-modular, padrões internos e camadas de compatibilidade para diferentes estilos de
-servidor.
-
-A framework oferece suporte aos modos:
-
-- **Legacy**, para quem busca compatibilidade com estruturas mais tradicionais;
-- **Enhanced**, para quem quer utilizar recursos mais modernos, organizados e otimizados.
-
-Nosso foco:
-
-- performance e estabilidade;
-- framework própria para FiveM RolePlay;
-- estrutura modular;
-- suporte Legacy e Enhanced;
-- compatibilidade com recursos Qbox/Ox;
-- deploy simples;
-- código limpo para edição;
-- experiência mais amigável para criadores de servidor;
-- identidade própria para projetos brasileiros.
-
----
-
-## Instale do seu jeito
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3>Instalador Forge Core</h3>
-      <p>
-        O método mais simples para instalar a framework. O instalador baixa o FXServer,
-        organiza a estrutura, prepara os arquivos necessários e guia o processo
-        por uma interface própria.
-      </p>
-      <p>
-        O download do instalador estará disponível no site oficial da Forge Core.
-      </p>
-    </td>
-    <td width="50%">
-      <h3>Deploy pelo txAdmin</h3>
-      <p>
-        Para quem prefere o fluxo tradicional do txAdmin usando Remote URL Template.
-      </p>
-      <p>
-        <a href="https://raw.githubusercontent.com/Forge-Core-Brasil/forge-core-deploy/main/recipe.yaml">
-          <strong>Copiar URL da recipe.yaml</strong>
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-### URL da recipe txAdmin
-
-```text
-https://raw.githubusercontent.com/Forge-Core-Brasil/forge-core-deploy/main/recipe.yaml
-```
-
-No txAdmin:
-
-1. Clique em `Create Server`.
-2. Escolha `Remote URL Template`.
-3. Cole a URL da recipe.
-4. Configure o banco de dados.
-5. Execute o deploy.
-
----
-
-## Repositórios principais
-
-| Repositório | Função |
-| --- | --- |
-| [`forge-core`](https://github.com/Forge-Core-Brasil/forge-core) | Resource central da Forge Core. |
-| [`forge-core-site`](https://github.com/Forge-Core-Brasil/forge-core-site) | Site oficial e página pública do instalador. |
-| [`forge-core-deploy`](https://github.com/Forge-Core-Brasil/forge-core-deploy) | Recipe e arquivos para instalação via txAdmin. |
-| [`forge_multichar`](https://github.com/Forge-Core-Brasil/forge_multichar) | Sistema de multicharacter. |
-| [`forge_spawn`](https://github.com/Forge-Core-Brasil/forge_spawn) | Seleção de spawn. |
-
----
-
-## Stack
-
-<div align="center">
-
-![FiveM](https://img.shields.io/badge/FiveM-111827?style=for-the-badge)
-![FXServer](https://img.shields.io/badge/FXServer-18181B?style=for-the-badge)
-![txAdmin](https://img.shields.io/badge/txAdmin-27272A?style=for-the-badge)
-![Legacy](https://img.shields.io/badge/Legacy-7C3AED?style=for-the-badge)
-![Enhanced](https://img.shields.io/badge/Enhanced-A855F7?style=for-the-badge)
-![Qbox Compatible](https://img.shields.io/badge/Qbox%20Compatible-8B5CF6?style=for-the-badge)
-![Ox Compatible](https://img.shields.io/badge/Ox%20Compatible-C084FC?style=for-the-badge)
-
-</div>
-
----
-
-## Links
-
-- Discord: https://discord.gg/vQHFXwpqqP
-- Site oficial: em breve
-- Deploy txAdmin: https://github.com/Forge-Core-Brasil/forge-core-deploy
-- Recipe: https://raw.githubusercontent.com/Forge-Core-Brasil/forge-core-deploy/main/recipe.yaml
-- Documentação: em breve
-
----
-
-<div align="center">
-
-### Forge Core — seu servidor, sua identidade.
-
-</div>
-````
