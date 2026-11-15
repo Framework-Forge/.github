@@ -1,0 +1,54 @@
+name: "QA | Plano de testes"
+description: "Registrar cenários, evidências e resultados de homologação"
+title: "[QA] "
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: "Ambiente e versão/build"
+      placeholder: "FXServer, game build, OneSync, framework, branch, commit, versão"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: "O que será testado?"
+      placeholder: "Funcionalidade, pré-condições, dependências e comportamento esperado"
+    validations:
+      required: true
+  - type: textarea
+    id: scenarios
+    attributes:
+      label: "Cenários de teste"
+      value: |
+        - [ ] Fluxo principal
+        - [ ] Entradas inválidas e casos-limite
+        - [ ] Permissões e segurança
+        - [ ] Persistência e reinício do resource/servidor
+        - [ ] Multiplayer e sincronização
+        - [ ] Desempenho e consumo de recursos
+        - [ ] Integração e regressão
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: "Resultados, sintomas e evidências"
+      placeholder: "Caso | Passos | Esperado | Obtido | PASS/FAIL/BLOCKED | Logs, vídeo, imagem"
+  - type: textarea
+    id: blockers
+    attributes:
+      label: "Bloqueios e pendências"
+      placeholder: "Defeitos encontrados, links de issues e necessidade de reteste."
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: "Parecer da homologação"
+      options:
+        - "Não iniciado"
+        - "Em execução"
+        - "Aprovado"
+        - "Reprovado"
+        - "Bloqueado"
+    validations:
+      required: true
