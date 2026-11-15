@@ -1,0 +1,45 @@
+name: "Bug | Erro ou regressão"
+description: "Reportar sintomas com reprodução verificável"
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: "Sintoma observado"
+      placeholder: "Mensagem de erro, mau funcionamento, quando ocorreu, frequência e impacto."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Passos para reproduzir"
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Resultado esperado x resultado obtido"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "Ambiente e diagnóstico"
+      placeholder: "Versão, commit, recursos ativos, dependências, logs F8/FXServer, stack trace."
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidências e hipótese de causa"
+      placeholder: "Prints, vídeos, logs sanitizados, PR relacionado e workaround."
+  - type: textarea
+    id: fix
+    attributes:
+      label: "Correção, reteste e regressão"
+      value: |
+        - [ ] Causa-raiz identificada
+        - [ ] Correção implementada
+        - [ ] Teste de reprodução passou
+        - [ ] Testes de regressão passaram
+        - [ ] Documentação/versão atualizada, quando necessário
