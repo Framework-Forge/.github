@@ -1,0 +1,39 @@
+name: "Release | Checklist de publicação"
+description: "Validar uma versão antes de liberar"
+title: "[RELEASE] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: "Versão e referência"
+      placeholder: "v1.0.0 / tag / branch / commit / PR"
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: "Mudanças incluídas"
+      placeholder: "Features, fixes, breaking changes e migrações"
+    validations:
+      required: true
+  - type: textarea
+    id: checklist
+    attributes:
+      label: "Gate de publicação"
+      value: |
+        - [ ] Critérios de aceite cumpridos
+        - [ ] QA aprovado, com evidências
+        - [ ] Segurança/permissões verificadas
+        - [ ] Desempenho e sincronização verificados
+        - [ ] Dependências e migrations documentadas
+        - [ ] README e exemplos conferidos
+        - [ ] Changelog e tag/versionamento revisados
+        - [ ] Responsável pela publicação confirmou autorização
+        - [ ] Plano de rollback registrado
+    validations:
+      required: true
+  - type: textarea
+    id: rollback
+    attributes:
+      label: "Implantação e rollback"
+      placeholder: "Ordem de instalação, backups, reversão, comunicação."
