@@ -1,0 +1,43 @@
+name: "Desenvolvimento | Nova funcionalidade"
+description: "Planejar e acompanhar implementações da Forge"
+title: "[DEV] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: "Objetivo e resultado esperado"
+      description: "Explique o problema e a entrega em linguagem objetiva."
+      placeholder: "O que deverá funcionar quando esta tarefa for concluída?"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: "Escopo e regras de negócio"
+      placeholder: "Funcionalidades, comandos, exports, APIs, permissões, UI/NUI, persistência, compatibilidade e casos-limite."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Critérios de aceite"
+      value: |
+        - [ ] Implementação atende ao escopo
+        - [ ] Erros e casos-limite tratados
+        - [ ] Testes de integração realizados
+        - [ ] Sem regressões conhecidas
+        - [ ] Documentação e exemplos atualizados
+        - [ ] Pull Request revisado e aprovado
+    validations:
+      required: true
+  - type: textarea
+    id: technical
+    attributes:
+      label: "Plano técnico, dependências e riscos"
+      placeholder: "Arquivos afetados, scripts relacionados, migrações SQL, impacto client/server, performance e riscos."
+  - type: textarea
+    id: links
+    attributes:
+      label: "Referências"
+      placeholder: "PRs, issues, documentação, protótipos e links."
